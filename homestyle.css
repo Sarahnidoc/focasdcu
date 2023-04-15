@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{ margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+body{ background-color: #24252A;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.hero{   width: 90%;
+         height: 130vh;
+         background-image: url(newhomepage.mov);
+         position: absolute;
+         padding: 0 5%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         object-position: center;
+
+}
+
+.back-video{ position: absolute;
+             z-index:-1;
+             overflow-x: hidden;
+
+}
+
+.navbar{ width: 80%;
+         margin: auto;
+         padding: 35px 10%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+}
+
+.logo{ width: 160px;
+       cursor: pointer;
+}
+
+.navbar ul li{ list-style: none;
+               display: inline-block;
+               margin: 0 10px;
+               position: relative;
+}
+
+.navbar ul li a { text-decoration: none;
+                  color: #edf0f1;
+}
+
+.navbar ul li::after{ content: '';
+                      height: 3px;
+                      width: 0%;
+                      background: rgba(0,136, 169, 1);
+                      position: absolute;
+                      left: 0;
+                      bottom: -5px;
+                      transition: 0.5s;
+}
+
+.navbar ul li:hover::after{ width: 100%;
+}
+
+.nav__links { list-style: none;
+}
+
+.nav__links li a {  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {  color:#0088a9;
+}
+
+.button { font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                color: #edf0f1;
+                text-decoration: none;
+                text-transform: capitalize;
+                cursor: pointer;
+}
+
+.button { padding: 5px 10px;
+          background-color: rgba(0,136, 169, 1);
+          border: none;
+          border-radius: 50px;
+          cursor: pointer;
+          transition: all 0.3s ease 0s;
+}
+
+button:hover { background-color: rgba(0,130, 170, 0.5);
+                cursor: pointer;
+}
+
+.content{ width: 100%;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          text-align: center;
+          color: #edf0f1;
+}
+
+.content h2{ margin: 30px auto;
+             font-weight: 100;
+             line-height: 25px;
+             color: rgba(0,136, 169, 1);
+
+
+}
+
+
+.content h1{ font-size: 48px;
+             margin-top: 20px;
+             letter-spacing: 0.05em;
+}
+
+
+.content p{ margin: 20px auto;
+             font-size: 18px;
+             font-weight: 100;
+             line-height: 25px;
+}
+
+.bottombutton{ width: 200px;
+               padding: 15px 0;
+               text-align: center;
+               margin: 20px 10px;
+               border-radius: 25px;
+               font-weight: bold;
+               border: 2px solid rgba(0,136, 169, 1);
+               background: transparent;
+               color: #edf0f1;
+               cursor: pointer;
+}
+
+footer{ padding-top: 700px;
+}
+
+.tag { text-align: center;
+}

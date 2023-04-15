@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+{
+   margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: centre;
+     align-items: centre;
+     min-height: 100vh;
+     font-family: Montserrat, sans-serif;
+     background-color: #24252A;
+
+
+  }
+  .container
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.container .box
+{
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background: rgba(0,136, 169, 1);
+box-shadow: 0 5px 15px rgba(0,0,0,.1);
+border-radius: 4px;
+margin: 20px;
+box-sizing: border-box;
+overflow: hidden;
+text-align: center;
+}
+.container .box .icon
+{
+  position: center;
+  width: 80px;
+  height: 80px;
+  color:  #edf0f1;
+  background: #24252A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+}
+.container .box:nth-child(1) .icon
+{
+  box-shadow: 0 0 0 0 #edf0f1;
+  background: ##edf0f1;
+}
+.container .box:nth-child(1):hover .icon
+{
+  box-shadow: 0 0 0 400px #edf0f1;
+}
+.container .box:nth-child(2) .icon
+{
+  box-shadow: 0 0 0 0 #edf0f1;
+  background: ##edf0f1;
+}
+.container .box:nth-child(2):hover .icon
+{
+  box-shadow: 0 0 0 400px #edf0f1;
+}
+.container .box:nth-child(3) .icon
+{
+  box-shadow: 0 0 0 0 #edf0f1;
+  background: ##edf0f1;
+}
+.container .box:nth-child(3):hover .icon
+{
+  box-shadow: 0 0 0 400px #edf0f1;
+}
+.container .box .content
+{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:hover .content
+{
+  color:  rgba(0,136, 169, 1);
+}
+.container .box .content h3
+{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+  .container .box .content h4
+  {
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 0;
+
+}
+.container .box .content p
+{
+  margin:0;
+  padding: 0;
+}

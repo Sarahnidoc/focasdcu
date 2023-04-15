@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Cró | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name= "description" content= "Welcome to Cró Media">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="cró.png" >
+
+
+<style>
+
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #24252A;
+}
+
+
+.navbar{ width: 80%;
+         margin: auto;
+         padding: 35px 10%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+}
+
+.logo{ width: 160px;
+       cursor: pointer;
+}
+
+.navbar ul li{ list-style: none;
+               display: inline-block;
+               margin: 0 10px;
+               position: relative;
+}
+
+.navbar ul li a { text-decoration: none;
+                  color: #edf0f1;
+}
+
+.navbar ul li::after{ content: '';
+                      height: 3px;
+                      width: 0%;
+                      background: rgba(0,136, 169, 1);
+                      position: absolute;
+                      left: 0;
+                      bottom: -5px;
+                      transition: 0.5s;
+}
+
+.navbar ul li:hover::after{ width: 100%;
+}
+
+.nav__links { list-style: none;
+}
+
+.nav__links li a {  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {  color:#0088a9;
+}
+
+.button { font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                color: #edf0f1;
+                text-decoration: none;
+                text-transform: capitalize;
+                cursor: pointer;
+}
+
+.button {  padding: 5px 10px;
+          background-color: rgba(0,136, 169, 1);
+          border: none;
+          border-radius: 50px;
+          cursor: pointer;
+          transition: all 0.3s ease 0s;
+}
+
+.button:hover {  background-color: rgba(0,130, 170, 0.5);
+}
+
+body{ min-height: 100vh;
+      overflow-x: hidden;
+}
+
+h2{ color: rgba(0,136, 169, 1);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    font-size: 30pt;
+    letter-spacing: 0.08em;
+}
+
+        p{   margin-left: auto;
+             margin-right: auto;
+             text-align: center;
+             font-weight: 100;
+             line-height: 25px;
+             color: #edf0f1;
+             padding-top: 20px;
+             padding-left: 30px;
+             font-size: 14pt;
+}
+
+.gallary{ position: absolute;
+          width: 100%;
+          margin: auto;
+          display: block;
+          padding-top: 50px;
+          padding-left: 90px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+}
+
+.thumb{ position: relative;
+        height: 230px;
+        border-style: solid;
+        border-color: #edf0f1;
+        border-radius: 10px;
+}
+
+footer{ padding-top: 1150px;
+  display: flex;
+  justify-content: center;
+  background-color: #24252A;
+
+    font-size: 0.9em;
+}
+
+.tag { text-align: center;
+}
+
+
+
+
+
+
+
+.footerlogos{
+padding: 20px;
+}
+
+
+</style>
+
+</head>
+
+  <body>
+
+    <header>
+
+    <nav>
+
+
+      <div class="navbar">
+        <a class="cta" href="index.html"><img src="cro.png" class="logo"
+       width="260" height="110">
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+
+        <a class="button" href="contact.html">Contact Us</a>
+
+
+      </div>
+
+
+    </nav>
+
+    </header>
+
+    <section>
+
+
+    <h2 class="headings">PORTFOLIO</h2>
+    <p>Amazing photos and videos for your business.
+    <br>Check out some of our previous work. </p>
+
+
+
+    <div class="gallary">
+      <img src="Ceol-6.JPEG" class="thumb" alt="Irish speaking band"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <img src="Indoors-14.JPEG" class="thumb" alt="Womens race start line"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <br><br><br><video autoplay loop muted src="MikeRoche.MOV" class="thumb"></video> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <img src="Megan-6.JPEG" class="thumb" alt="Family graduation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <br><br><br><img src="Party-7.JPEG" class="thumb" alt="Sunset portrait"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <video autoplay loop muted src="ONeills.MOV" class="thumb"></video>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <br><br><br><video autoplay loop muted src="MaterFoundation.MOV" class="thumb"></video> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <img src="Maire-5.JPEG" class="thumb" alt="Woman playing instrument"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <br><br><br>
+
+    </div>
+
+
+
+    </section>
+
+    <footer>
+
+
+
+      <div class="navbar">
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+
+
+      </div>
+
+
+
+
+<br><a href="https://www.instagram.com/dublincityuniversity/">
+
+<img src="insta.jpeg" alt="instagram" class="footerlogos"
+
+height="120"
+width="120"
+padding="10px"
+
+/>
+
+</a>
+
+<a href="https://www.facebook.com/DCU/">
+
+<img src="facebook.jpeg" alt="facebook" class="footerlogos"
+
+height="120"
+width="120"
+padding="10px"
+
+/>
+
+</a>
+
+<a href="https://www.linkedin.com/school/dublin-city-university/">
+
+<img src="linkedin.jpeg" alt="linkedin" class="footerlogos"
+
+height="120"
+width="120"
+padding="10px"
+
+
+
+
+/>
+
+</a>
+
+<a href="https://twitter.com/dcu">
+
+<img src="twitter.jpeg" alt="twitter" class="footerlogos"
+
+height="120"
+width="120"
+padding="10px"
+
+
+/>
+
+
+
+</a>
+
+      <p class="tag">
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!">
+          </a>
+      </p>
+
+    </footer>
+
+
+
+
+  </body>
+
+
+</html>
